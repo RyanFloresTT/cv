@@ -1,0 +1,66 @@
+
+body {
+  margin: 0px;
+  text-align: center;
+  background-color: #FEF5ED;
+}
+
+h1 {
+  margin: 0px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  position: relative;
+  border-color: gray;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 10px;
+  width: 60px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.top-conatiner {
+  padding-top: 100px;
+  background-color: #FEF5ED;
+  position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+}
+
+.pfp {
+  width: 200px;
+  height: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
