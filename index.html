@@ -11,35 +11,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body><!-- IDEA: Add a pfp/icon thing to the left side of the navbar -->
+  <nav class="nav-bar">
+    <div class="menu">
+      <ul class="menu-items">
+        <a href="#">Doesn't Work</a><!-- FIXME:  -->
+        <a href="#">Doesnt' Work</a><!-- FIXME:  -->
+        <a href="blog.html">Blog</a>
+      </ul>
+    </div>
+  </nav>
   <div class="top-conatiner">
     <img class="top-cloud" src="images/cloud.png" alt="">
     <h1>I'm Ryan</h1>
-    <h3>A <span class = "pro">PRO</span>GRAMMER</h3>
+    <div class="programmer">
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
     <img class="bottom-cloud" src="images/cloud.png" alt="">
     <img src="images/mountain.png" alt="">
   </div>
-    <hr>
+  <hr>
   <div class="middle-container">
     <div class="profile">
-      <img class="pfp" src="images/ryanpfp.png" alt="">
+      <img class="pfp" src="images/ryanpfp.png" alt="Ryan's pfp-png">
       <h2>Welcome</h2>
-      <p>My name is Ryan Flores, I'm super passionate about code, and I am a Full Stack Web Developer!</p>
+      <p>My name is Ryan Flores, I am super passionate about code and I'm a Full Stack Web Developer!</p>
+      <p>Creating websites is my creative outlet, I use HTML and CSS to create interactive and great looking websites like this one!</p>
+      <p>Thank you for stopping by! Check out my blog posts <a href="">here</a> to follow my journey into learning Web Development!</p>
     </div>
-    <hr>
+    <hr><!-- FIXME:  I want this section to be its own page, more of a 'resume page'. Leave home page for introduction and stuff.-->
     <div class="skills">
-      <h2>My Skills!</h2>
+      <h2>My Skills</h2>
       <div class="skill-row">
-        <img class="" src="" alt="">
+        <img class="html-img" src="images/html.png" alt="">
         <h3>HTML</h3>
         <p>The building block of any website! I used HTML to construct this very website! I am comfortable using HTML to create anything Forms to Tables and more!</p>
       </div>
       <div class="skill-row">
-        <img class="" src="" alt="">
+        <img class="css-img" src="images/css.png" alt="">
         <h3>CSS</h3>
         <p>One of the more fun things to do being a Web Developer is making things look appealing. I am able to use CSS to create attractive websites like this one here.</p>
-      </div><div class="skill-row">
-        <img class="" src="" alt="">
+      </div>
+      <div class="skill-row">
+        <img class="python-img" src="images/python.png" alt="">
         <h3>PYTHON</h3>
         <p>Not only is this programming language super easy, it's super fun to use! Python is my go to programming language to use outside of Web Development for scripting and creating basic applications.</p>
       </div>
@@ -47,7 +61,9 @@
     <hr>
     <div class="contact-me">
       <h2>Let's Get In Touch!</h2>
-      <a class="btn" href="mailto:name@email.com">EMAIL ME</a>
+      <h3>If you love coding as much as I do.</h3>
+      <p>Let's build some amazing things together! Feel free to contact me, let's talk about code!</p>
+      <a href="mailto:rryanflorres@gmail.com" class="BUTTON_QWR">CONTACT ME</a>
     </div>
   </div>
 
@@ -56,7 +72,8 @@
     <a class="footer-link" href="https://www.linkedin.com/in/ryan-flores-tt/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/_TrustyTea">Twitter</a>
     <a class="footer-link" href="https://github.com/RyanFloresTT">GitHub</a>
-    <p>© 2021 Ryan Flores.</p>
+    <div class="iconcredit">Icons made by <a class="icon-footer-link" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a class="icon-footer-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <p class="copyright">© 2021 Ryan Flores.</p>
   </div>
 
 </body>
